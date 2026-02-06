@@ -1,0 +1,236 @@
+/*--  =====================================ELEMENTS LARGE VIEWPRT============================================ */
+
+/* ======================================NAVIGATION ELEMENTS -->*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{box-sizing: border-box;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+height: 100wh;
+justify-self: center;
+align-items: center;
+background: white;
+
+}
+
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #003366;
+	color: white;
+}
+
+.brand{
+	width: 10%;
+	
+}
+
+
+.navbar-links ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.navbar-links li{
+	list-style: none;	
+}
+
+
+.navbar-links li a{
+	text-decoration: none;	
+	color: white;
+	font-size: 1.0em;
+	font-weight: bold;
+	font-family: Roboto;
+	padding: 1rem;
+	display: block;	
+	margin-right: 0px;
+}
+
+.navbar-links li:hover{
+	background-color: black;	
+}
+
+
+
+
+.toggle-button {
+	position: absolute; 
+	top: 0.75rem;	
+	right: 1.0rem;
+	flex-direction:column;
+	width: 30px;
+	height: 21px;
+	justify-content: space-between;
+	display: none;
+	 
+}
+
+.toggle-button .bar {
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container{
+	
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	gap:3px
+	align-items: center;
+	
+
+}
+
+.item{
+padding: 10px;
+border: none;
+align-items: center;
+
+}
+
+.itemtwo{
+padding: 10px;
+border: none;
+align-items: center;
+
+}
+
+
+
+
+
+/* ======================================TEXT STYLES ELEMENTS INCLUDING LINKS -->*/
+
+
+h1 {
+	font-family: "Roboto", serif;
+  	font-weight: 300;
+  	font-style: normal;
+	COLOR:#2773F5;
+	font-size: 2.1em;
+	
+	
+
+}
+
+h2 {
+	font-family: "Roboto", serif;
+  	font-weight: 500;
+  	font-style: normal;
+	color: black; 
+	font-size: 1.5em;
+	letter-spacing: 0em;
+	text-align: center;
+
+}
+
+h3 {
+	font-family: "Roboto", serif;
+  	font-weight: 300;
+  	font-style: normal;
+	color: black; 
+	font-size: 1.0em;
+	letter-spacing: 0em;
+	text-align: center;
+
+}
+
+
+
+h4 {
+	font-family: "Roboto", serif;
+  	font-weight: 100;
+  	font-style: normal;
+	color: black; 
+	font-size: 0.75em;
+	letter-spacing: 0em;
+	text-align: center;
+
+}
+
+
+
+p {
+	font-family: "Roboto", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: black; 
+	font-size: 1.0em;
+	line-height:1.5em;
+	/*text-align: center;*/
+}
+
+/* ======================================IMAGES LINKS AND OTHER ELEMENTS  -->*/
+a {
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+text-decoration: none;
+color: red;
+}
+
+#cheese{
+
+ 	display: inline;
+	max-width: 100%;
+}
+
+button {
+	display: block;
+	margin:1px;
+	left-margin: 60%;
+	
+}
+
+.button-margin-auto {
+  display: block; /* Makes the button a block element */
+  margin: 0 auto; /* Centers horizontally by setting equal left/right margins */
+}
+
+
+img{
+	width: 40%;
+	margin: 1px auto;
+	display: block;
+}
+
+.special{
+	width: 100px;
+	margin: 1px auto;
+	display: inline;
+
+}
+
+hr {
+  border: none; /* Removes the default 3D border effect */
+  height: 0.5px; /* Sets the line's thickness */
+  background-color: #595959; /* Sets the line's color */
+	width: 100%;
+	margin:0 auto;
+}
