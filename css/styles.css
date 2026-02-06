@@ -274,7 +274,18 @@ hr {
 	
 
 /* ======================================TEXT STYLES ELEMENTS INCLUDING LINKS -->*/
+.container{
+	
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	gap:3px
+	align-items: center;
+	
 
+}
 	h1 {
 		color: black; font-family: Roboto, arial; 
 		font-size: 1.75em;
@@ -305,6 +316,7 @@ img{
 
 
 }
+
 
 
 
