@@ -69,7 +69,7 @@ background: white;
 	right: 1.0rem;
 	flex-direction:column;
 	width: 30px;
-	height: 30px;
+	height: 20px;
 	justify-content: space-between;
 	display: none;
 	 
@@ -316,6 +316,7 @@ img{
 
 
 }
+
 
 
 
