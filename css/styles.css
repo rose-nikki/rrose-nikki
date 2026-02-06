@@ -76,7 +76,7 @@ background: white;
 }
 
 .toggle-button .bar {
-	height: 5px;
+	height: 2px;
 	width: 100%;
 	background-color: white;
 	border-radius: 10px;
@@ -316,6 +316,7 @@ img{
 
 
 }
+
 
 
 
