@@ -65,7 +65,7 @@ background: white;
 
 .toggle-button {
 	position: absolute; 
-	top: 0.50rem;	
+	top: 0.75rem;	
 	right: 1.0rem;
 	flex-direction:column;
 	width: 30px;
@@ -76,7 +76,7 @@ background: white;
 }
 
 .toggle-button .bar {
-	height: 1px;
+	height: 3px;
 	width: 100%;
 	background-color: white;
 	border-radius: 10px;
@@ -316,6 +316,7 @@ img{
 
 
 }
+
 
 
 
