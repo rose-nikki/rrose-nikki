@@ -228,6 +228,17 @@ img{
 
 }
 
+.counter{
+width: 20px;
+	margin: 1 px auto;
+	display: block;
+	align-left;
+	
+}
+
+
+
+
 hr {
   border: none; /* Removes the default 3D border effect */
   height: 0.5px; /* Sets the line's thickness */
@@ -317,6 +328,7 @@ img{
 
 
 }
+
 
 
 
