@@ -230,6 +230,7 @@ img{
 
 .counter{
 width: 5px;
+	height: 8px;
 	margin: 1 px auto;
 	display: block;
 	align-left;
@@ -328,6 +329,7 @@ img{
 
 
 }
+
 
 
 
