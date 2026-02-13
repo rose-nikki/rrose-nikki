@@ -221,6 +221,13 @@ img{
 	display: block;
 }
 
+.image-counter{
+width: 10%;
+
+}
+
+
+
 .special{
 	width: 100px;
 	margin: 1px auto;
@@ -321,6 +328,7 @@ img{
 
 
 }
+
 
 
 
